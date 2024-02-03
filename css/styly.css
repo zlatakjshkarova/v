@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Legue Spartan', sans-serif;
+}
+
+
+
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    padding-bottom: 168px;
+}
+
+.header_container {
+    display: flex;
+}
+
+
+.header__desc {
+    max-width: 627px;
+    padding-top: 104px;
+    margin-right: 32px;
+}
+
+.header__supertitle {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 53px;
+}
+
+.title {
+
+
+    margin-bottom: 25px;
+    font-size: 250px;
+    font-weight: 300px;
+    line-height: 1;
+    font-family: "League Spartan";
+}
+
+.header_text {
+    color: black;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    margin-top: 0;
+    margin-bottom: 60px;
+
+}
+
+.offer {
+    display: flex;
+}
+
+.offer_link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 300;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 26px 74px;
+
+}
+
+.offer_price {
+    background: #f8f8f8;
+    color: black;
+    box-shadow: 0px 0px 28px 0px rgba(245, 241, 241, 0.829);
+    padding: 16px 28px;
+    box-shadow: 0px 0px 28px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.header_con {
+    display: flex;
+}
+
+.header_img-wrap {
+    width: 408px;
+    height: 100%;
+
+}
+
+.header_img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.supertitle {
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 56px;
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.products {
+    display: flex;
+    max-width: 500px;
+
+
+
+
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 1;
+
+}
+
+
+
+
+
+
+.product__img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
